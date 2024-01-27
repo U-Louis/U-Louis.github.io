@@ -1,6 +1,9 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 import { resolve } from "path";
 export default defineNuxtConfig({
+  app: {
+    baseURL: '/U-Louis.github.io',
+    buildAssetsDir: 'assets'
+  },
   devtools: { enabled: false },
   alias: {
     "@": resolve(__dirname, "./"),
