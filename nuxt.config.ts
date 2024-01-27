@@ -1,7 +1,7 @@
 import { resolve } from "path";
 export default defineNuxtConfig({
   app: {
-    baseURL: '/U-Louis.github.io',
+    baseURL: '/',
     buildAssetsDir: 'assets'
   },
   devtools: { enabled: false },
