@@ -1,0 +1,1 @@
+.bg-gradient-animation{animation:gradient 14s ease infinite;background:linear-gradient(-45deg,#0a2647,#135a98,#023970,#1c4b7d);background-size:400% 400%;height:100%}@keyframes gradient{0%{background-position:0 50%}50%{background-position:100% 50%}to{background-position:0 50%}}
