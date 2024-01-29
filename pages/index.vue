@@ -1,11 +1,9 @@
 <template>
   <main class="container mx-auto p-8">
-    <section class="flex items-center mb-8">
-      <img src="/static/profile.png" alt="Profile Photo" class="w-1/3 h-auto rounded-full mr-4 border-2 border-black">
-      <div>
-        <h1 class="text-2xl md:text-4xl lg:text-5xl font-bold">Louis URBANI</h1>
-        <p class="text-xl md:text-3xl lg:text-4xl text-balance">Développeur Full-Stack (2 ans)</p>
-        <div>
+    <section class="flex items-center mb-8 gap-4">
+      <div class="flex flex-col w-1/2 items-center gap-2">
+        <img src="/static/profile.png" alt="Profile Photo" class="flex margin-auto rounded-full border-2 border-black">
+        <div class="flex flex-wrap">
           <a href="https://github.com/U-louis" target="_blank" class="btn" rel="noopener noreferrer">
             <font-awesome-icon :icon="['fab', 'square-github']" class="text-3xl p-1" />
           </a>
@@ -21,6 +19,15 @@
 
           <tooltip :show="showTooltip" :top="tooltipTop" :left="tooltipLeft">Copied!</tooltip>
         </div>
+      </div>
+
+      <div class="flex flex-col w-1/2">
+        <h1 class="text-2xl md:text-4xl lg:text-5xl font-bold">Louis URBANI</h1>
+        <p class="text-xl md:text-3xl lg:text-4xl">Développeur Full-Stack (2 ans)</p>
+
+        <div class="flex p-2 flex-grow mt-2">
+          <img src="/static/stack-cloud.png" alt="stack-cloud">
+        </div>
 
       </div>
     </section>
@@ -28,19 +35,25 @@
     <section class="mb-8">
       <h2 class="text-2xl font-bold mb-4">À l'écoute de nouvelles opportunités</h2>
       <p class="text-justify">
-        <span class="ml-9" />Ce qui me séduit facilement (sans rien de rédhibitoire) : une belle stack, une bonne
+        <span class="ml-9" />Actuellement en poste chez <NuxtLink to="https://www.kanta.fr/" class="font-bold italic"
+          target="_blank">Kanta</NuxtLink> en tant que développeur full-stack, je suis à la
+        recherche d'une nouvelle expérience.
+        <br>
+        <span class="ml-9" />Ce qui me séduit facilement : une belle stack, une bonne
         ambiance, une volonté d'aller
         vers de la qualité, plein de choses finalement... La(les) cerise(s) sur le gâteau : des temps de r&d, de pair-pro,
         du DDD, des projets from scratch...
         <br>
         <span class="ml-9" />La majeure partie de mon travail est privée, vous pouvez parcourir mes <NuxtLink
           to="/projects" class="font-bold italic">projets</NuxtLink> pour
-        en apprendre plus.
-        <br>
-        <span class="ml-9" />Le mieux : <NuxtLink to="https://linkedin.com/in/louis-urbani" class="font-bold italic"
+        en apprendre plus. Le mieux : <NuxtLink to="https://linkedin.com/in/louis-urbani" class="font-bold italic"
           target="_blank">
           envoyez-moi un message, on
           en discute !</NuxtLink>
+        <br><span class="ml-9" />Vous avez besoin d'un CV en PDF, de lettres de recommandation, de précisions ou autre,
+        même chose :
+        <NuxtLink to="https://linkedin.com/in/louis-urbani" class="font-bold italic" target="_blank">
+          un petit mp</NuxtLink>.
       </p>
     </section>
   </main>
