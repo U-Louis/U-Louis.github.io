@@ -62,7 +62,7 @@ export default {
   },
   methods: {
     copyToClipboard(type, event) {
-      const textToCopy = type === 'phone' ? '+123456789' : 'your.email@example.com';
+      const textToCopy = type === 'phone' ? '0641516034' : 'louis.urbani@yahoo.com';
       navigator.clipboard.writeText(textToCopy).then(() => {
         const rect = event.target.getBoundingClientRect();
         this.tooltipTop = `${rect.top + rect.height / 2}px`;
