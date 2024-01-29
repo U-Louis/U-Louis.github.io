@@ -83,7 +83,8 @@
                     </h3>
                     <p class="text-secondary text-justify"><span class="ml-9" />Petite page perso statique construite avec
                         <b>Nuxt, Tailwind</b> et hébergée sur <b>github pages</b>. Le code source est disponible sur
-                        <NuxtLink class="italic font-bold" to="https://github.com/U-Louis">github</NuxtLink>.
+                        <NuxtLink class="italic font-bold" to="https://github.com/U-Louis/U-Louis.github.io">github
+                        </NuxtLink>.
                     </p>
                 </div>
                 <div
