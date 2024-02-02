@@ -2,7 +2,8 @@
   <main class="container mx-auto p-8">
     <section class="flex items-center mb-8 gap-4">
       <div class="flex flex-col w-1/2 items-center gap-2">
-        <img src="/static/profile.png" alt="Profile Photo" class="flex margin-auto rounded-full border-2 border-black">
+        <img src="/static/profile.png" alt="Profile Photo"
+          class="flex margin-auto rounded-full border-2 border-black md:w-3/4 lg:w-2/3 xl:w-1/2">
         <div class="flex flex-wrap">
           <a href="https://github.com/U-louis" target="_blank" class="btn" rel="noopener noreferrer">
             <font-awesome-icon :icon="['fab', 'square-github']" class="text-3xl p-1" />
