@@ -1,8 +1,8 @@
 <template>
     <div>
         <main class="container mx-auto p-8">
-            <section class="mb-8 flex flex-col gap-4">
-                <h1 class="text-antisecondary text-2xl font-bold pb-3">Projets</h1>
+            <section class="mb-8 grid lg:grid-cols-2 xl:grid-cols-3 gap-4">
+                <h1 class="text-antisecondary text-2xl font-bold pb-3 lg:col-span-2 xl:col-span-3">Projets</h1>
                 <div
                     class="bg-antisecondary text-secondary p-6 rounded shadow-md hover:shadow-lg transition-transform duration-300">
                     <h3 class="text-xl font-bold mb-2 flex items-center">Kanta App
