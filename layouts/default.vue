@@ -2,11 +2,13 @@
     <div class="flex flex-col min-h-screen">
         <template>
             <header class="text-antiprimary text-center py-4 bg-primary fixed top-0 w-full z-10">
-                <NuxtLink to="/" class="text-lg mx-4" :class="{ 'font-bold': $route.path === '/' }">À propos
+                <NuxtLink to="/" class="text-lg mx-4" :class="{ 'font-extrabold': $route.path === '/' }">À propos
                 </NuxtLink>
-                <NuxtLink to="/projects" class="text-lg mx-4" :class="{ 'font-bold': $route.path === '/projects' }">Projets
+                <NuxtLink to="/projects" class="text-lg mx-4" :class="{ 'font-extrabold': $route.path === '/projects' }">
+                    Projets
                 </NuxtLink>
-                <NuxtLink to="/experiences" class="text-lg mx-4" :class="{ 'font-bold': $route.path === '/experiences' }">
+                <NuxtLink to="/experiences" class="text-lg mx-4"
+                    :class="{ 'font-extrabold': $route.path === '/experiences' }">
                     Expériences</NuxtLink>
             </header>
         </template>
