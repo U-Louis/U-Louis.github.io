@@ -38,11 +38,23 @@
                     <h2 class="text-secondary text-xl font-extrabold">AFPA</h2>
                     <h3 class="text-tertiary text-sm italic font-bold">juin 2021 - fev. 2022 (9 mois)</h3>
                     <p class="text-secondary text-justify mt-2"><span class="ml-9" />La formation intensive et accélérée de
-                        l'AFPA pose les bases de l'algorithmique, de langages natifs (<b>PHP, JS, HTML, CSS, Java, SQL</b> )
-                        et de frameworks (<b>Symfony, Android Studio, Jquery, Bootstrap</b>). Elle forme aussi à une
+                        l'AFPA pose les bases de l'algorithmique, de langages natifs (<b>
+                            <font-awesome-icon :icon="['fab', 'php']" style="color: #74C0FC;" /> PHP,
+                            <font-awesome-icon :icon="['fab', 'js']" style="color: #FFD43B;" /> JS,
+                            <font-awesome-icon :icon="['fab', 'html5']" style="color: #ff6929;" /> HTML,
+                            <font-awesome-icon :icon="['fab', 'css3']" style="color: #2e9ff5;" /> CSS,
+                            <nuxt-icon filled name="java" />Java,
+                            <font-awesome-icon :icon="['fa', 'database']" /> SQL</b> )
+                        et de frameworks (
+                        <font-awesome-icon :icon="['fab', 'symfony']" style="color: #000000;" /><b> Symfony,
+                            <font-awesome-icon :icon="['fab', 'android']" style="color: #5bb53b;" /> Android Studio,
+                            Jquery,
+                            <font-awesome-icon :icon="['fab', 'bootstrap']" style="color: #8f6cf9;" /> Bootstrap</b>). Elle
+                        forme aussi à une
                         organisation agile du travail (initiation au <b>Scrum</b>) ainsi qu'à des méthodes de conception et
                         d'architecture logicielle
-                        (analyse <b>Merise</b> par exemple).</p>
+                        (analyse <b>Merise</b> par exemple).
+                    </p>
                 </div>
 
                 <div

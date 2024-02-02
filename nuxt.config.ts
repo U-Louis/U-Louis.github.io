@@ -4,6 +4,7 @@ export default defineNuxtConfig({
     baseURL: '/',
     buildAssetsDir: 'assets'
   },
+  modules: ['nuxt-icons'],
   devtools: { enabled: false },
   alias: {
     "@": resolve(__dirname, "./"),
