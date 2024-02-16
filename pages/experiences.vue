@@ -30,6 +30,15 @@
                     <h2 class="text-secondary text-xl font-extrabold">Kanta</h2>
                     <h3 class="text-tertiary text-sm italic font-bold">dec. 2021 - fev. 2022 (2 mois)</h3>
                 </div>
+                <div
+                    class="bg-antisecondary text-secondary p-6 rounded shadow-md hover:shadow-lg transition-transform duration-300">
+                    <h1 class="text-primary text-xl font-bold">Développeur web</h1>
+                    <h2 class="text-secondary text-xl font-extrabold">Freelance</h2>
+                    <h3 class="text-tertiary text-sm italic font-bold">dec. 2020 - mai 2021</h3>
+                    <p class="text-secondary text-justify mt-2"><span class="ml-9" />
+                        Mes premiers pas en tant que développeur ! J'ai pu créer trois sites web et une IHM pour différents clients. 
+                    </p>
+                </div>
 
                 <h1 class="text-antisecondary text-2xl font-bold p-3 mt-6">Formation</h1>
                 <div
