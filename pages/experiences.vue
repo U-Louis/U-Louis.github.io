@@ -22,13 +22,13 @@
                     class="bg-antisecondary text-secondary px-6 py-3 rounded shadow-md hover:shadow-lg transition-transform duration-300">
                     <h1 class="text-primary text-xl font-bold">Développeur Full-Stack Junior</h1>
                     <h2 class="text-secondary text-xl font-extrabold">Kanta</h2>
-                    <h3 class="text-tertiary text-sm italic font-bold">fev. 2021 - sept. 2023 (18 mois)</h3>
+                    <h3 class="text-tertiary text-sm italic font-bold">fev. 2022 - sept. 2023 (18 mois)</h3>
                 </div>
                 <div
                     class="bg-antisecondary text-secondary px-6 py-3 rounded shadow-md hover:shadow-lg transition-transform duration-300">
                     <h1 class="text-primary text-xl font-bold">Développeur Full-Stack Stagiaire</h1>
                     <h2 class="text-secondary text-xl font-extrabold">Kanta</h2>
-                    <h3 class="text-tertiary text-sm italic font-bold">dec. 2020 - fev. 2021 (2 mois)</h3>
+                    <h3 class="text-tertiary text-sm italic font-bold">dec. 2021 - fev. 2022 (2 mois)</h3>
                 </div>
 
                 <h1 class="text-antisecondary text-2xl font-bold p-3 mt-6">Formation</h1>
